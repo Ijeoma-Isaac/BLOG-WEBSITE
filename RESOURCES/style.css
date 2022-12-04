@@ -1,0 +1,151 @@
+@media (max-width: 426px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    height: 50rem;
+    margin-bottom: 20rem;
+    width: 20rem;
+  }
+  body {
+    flex-wrap: wrap;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #be3144;
+  overflow-y: scroll;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  padding: 20px;
+  /* height: 100%; */
+}
+
+nav {
+  /* height: 100%; */
+  background-color: black;
+  height: 5rem;
+}
+.fashionimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 50px;
+  margin: 50px;
+}
+.fashionimg h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.fashionimg img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 20rem;
+}
+div h1,
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 20px;
+  font-size: 2em;
+  text-align: center;
+  /* height: 100%; */
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+li a:link {
+  text-decoration: none;
+  display: inline-block;
+  /* padding: 1.5rem; */
+  color: white;
+  /* height: 100%; */
+}
+
+li a:visited {
+  color: antiquewhite;
+}
+
+li a:focus {
+  outline: 3px solid black;
+}
+
+li a:hover {
+  background-color: rgb(6, 6, 124);
+}
+
+li a:active {
+  background-color: cadetblue;
+}
+
+section h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.div {
+  margin-left: 50px;
+}
+.div h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+.womenimg img {
+  height: 50vh;
+  width: 20rem;
+  gap: 50px;
+  margin: 70px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+}
+.child {
+  display: flex;
+  margin-top: 60px;
+  gap: 40px;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.child img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 20rem;
+}
+.child h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-family: Agency FB;
+}
